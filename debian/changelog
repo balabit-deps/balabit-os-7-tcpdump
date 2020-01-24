@@ -1,3 +1,18 @@
+tcpdump (4.9.3-0ubuntu0.18.04.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Updated to 4.9.3 to fix multiple security issues
+    - debian/patches/disable-tests.diff: disable tests that require newer
+      libpcap.
+    - CVE-2017-16808, CVE-2018-10103, CVE-2018-10105, CVE-2018-14461,
+      CVE-2018-14462, CVE-2018-14463, CVE-2018-14464, CVE-2018-14465,
+      CVE-2018-14466, CVE-2018-14467, CVE-2018-14468, CVE-2018-14469,
+      CVE-2018-14470, CVE-2018-14879, CVE-2018-14880, CVE-2018-14881,
+      CVE-2018-14882, CVE-2018-16227, CVE-2018-16228, CVE-2018-16229,
+      CVE-2018-16230, CVE-2018-16300, CVE-2018-16451, CVE-2018-16452,
+      CVE-2018-19519, CVE-2019-1010220, CVE-2019-15166, CVE-2019-15167
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 24 Jan 2020 07:57:54 -0500
+
 tcpdump (4.9.2-3) unstable; urgency=medium
 
   [ Jamie Strandboge ]
